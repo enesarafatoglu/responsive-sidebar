@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar Menu</title>
+</head>
+
+<body>
+  <div class="my-sidebar">
+    <div class="my-logo-details">
+      <i class='bx bxl-jquery my-icon'></i>
+      <div class="my-logo_name">Menu</div>
+      <i class="bx bx-menu" id="my_btn"></i>
+    </div>
+    <ul class="my-nav-list">
+      <li>
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search..." />
+        <span class="my-tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-grid-alt"></i>
+          <span class="my-links_name">Dashboard</span>
+        </a>
+        <span class="my-tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user"></i>
+          <span class="my-links_name">User</span>
+        </a>
+        <span class="my-tooltip">User</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-chat"></i>
+          <span class="my-links_name">Messages</span>
+        </a>
+        <span class="my-tooltip">Messages</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-message-add'></i>
+          <span class="my-links_name">New Blog</span>
+        </a>
+        <span class="my-tooltip">Blogs</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-trash'></i>
+          <span class="my-links_name">Trash</span>
+        </a>
+        <span class="my-tooltip">Trash</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-heart"></i>
+          <span class="my-links_name">Save</span>
+        </a>
+        <span class="my-tooltip">Save</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-block"></i>
+          <span class="my-links_name">Block</span>
+        </a>
+        <span class="my-tooltip">Block</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-cog"></i>
+          <span class="my-links_name">Settings</span>
+        </a>
+        <span class="my-tooltip">Settings</span>
+      </li>
+      <li class="my-profile">
+        <div class="my-profile-details">
+          <img src="profile.png" alt="profileImg" />
+          <div class="my-name_job">
+            <div class="my-name">Author</div>
+            <div class="my-job">Software Developer</div>
+          </div>
+        </div>
+        <a href="#">
+          <i class="bx bx-log-out" id="my_log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="my-main-section">
+    <div class="my-blog-post">
+      <div class="my-blog-header">
+        <i class='bx bxl-blogger bx-tada bx-flip-horizontal'
+          style='color:#e55216; font-size: 32px; margin-right: 10px;'></i>
+        <h2 class="my-blog-title">Blog A</h2>
+      </div>
+      <p class="my-blog-date">November 20, 2023</p>
+      <p class="my-blog-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec turpis id elit mollis malesuada a a libero.
+        Vestibulum quis mi vel erat tempor dictum. In hac habitasse platea dictumst. Nullam interdum orci at odio
+        facilisis, eu tempus ex lacinia. Sed euismod aliquam ex, id suscipit libero faucibus ut.
+      </p>
+      <a href="#" class="my-read-more-link">Read More</a>
+    </div>
+
+    <div class="my-blog-post">
+      <div class="my-blog-header">
+        <i class='bx bxl-blogger bx-spin bx-rotate-90' style='color:#0aca35'></i>
+        <h2 class="my-blog-title">Blog B</h2>
+      </div>
+      <p class="my-blog-date">October 5, 2023</p>
+      <p class="my-blog-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec turpis id elit mollis malesuada a a libero.
+        Vestibulum quis mi vel erat tempor dictum. In hac habitasse platea dictumst. Nullam interdum orci at odio
+        facilisis, eu tempus ex lacinia. Sed euismod aliquam ex, id suscipit libero faucibus ut.
+      </p>
+      <a href="#" class="my-read-more-link">Read More</a>
+    </div>
+
+    <div class="my-blog-post">
+      <div class="my-blog-header">
+        <i class='bx bxl-blogger bx-fade-left' style='color:#0467bb'></i>
+        <h2 class="my-blog-title">Blog C</h2>
+      </div>
+      <p class="my-blog-date">September 15, 2023</p>
+      <p class="my-blog-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec turpis id elit mollis malesuada a a libero.
+        Vestibulum quis mi vel erat tempor dictum. In hac habitasse platea dictumst. Nullam interdum orci at odio
+        facilisis, eu tempus ex lacinia. Sed euismod aliquam ex, id suscipit libero faucibus ut.
+      </p>
+      <a href="#" class="my-read-more-link">Read More</a>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
